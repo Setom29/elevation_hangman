@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.active-letter{
+
+}
+
+.used-letter{
+  text-decoration: line-through;
+}
+
+.green{
+  width: 22vw;
+  background-color: green;
+}
+
+.yellow{
+  width: 22vw;
+  background-color: yellow;
+}
+
+.red{
+  width: 22vw;
+  background-color: red;
+}
+
+.letters{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 22vw;
+}
+
+.solution-letters{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  gap: 20px;
+  width: 22vw;
+  
+}
